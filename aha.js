@@ -1,4 +1,4 @@
-var pont=36
+var pont=37
 
 function hide1() 
 {
