@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PIXEL</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="aha.css">
+    <link rel="icon" href="savingPNG (57) (1).png">
+</head>
+<body>
+    <div id="buttonbox">
+        <label id="cim" for="aha">KI LÁTHATÓ A KÉPEN?</label>
+        <input id="tipp" type="text">
+        <button id="tippgomb" onclick="tippmix()" type="submit" class="bg-success text-white">TIPP</button>
+    </div>
+    <br>
+    <div id="board">
+        <div onclick="hide1()" id="circle1" style="cursor: pointer;"></div>
+        <div onclick="hide2()" id="circle2" style="cursor: pointer;"></div>
+        <div onclick="hide3()" id="circle3" style="cursor: pointer;"></div>
+        <div onclick="hide4()" id="circle4" style="cursor: pointer;"></div>
+        <div onclick="hide5()" id="circle5" style="cursor: pointer;"></div>
+        <div onclick="hide6()" id="circle6" style="cursor: pointer;"></div>
+        <div onclick="hide7()" id="circle7" style="cursor: pointer;"></div>
+        <div onclick="hide8()" id="circle8" style="cursor: pointer;"></div>
+        <div onclick="hide9()" id="circle9" style="cursor: pointer;"></div>
+        <div onclick="hide10()" id="circle10" style="cursor: pointer;"></div>
+        <div onclick="hide11()" id="circle11" style="cursor: pointer;"></div>
+        <div onclick="hide12()" id="circle12" style="cursor: pointer;"></div>
+        <div onclick="hide13()" id="circle13" style="cursor: pointer;"></div>
+        <div onclick="hide14()" id="circle14" style="cursor: pointer;"></div>
+        <div onclick="hide15()" id="circle15" style="cursor: pointer;"></div>
+        <div onclick="hide16()" id="circle16" style="cursor: pointer;"></div>
+        <div onclick="hide17()" id="circle17" style="cursor: pointer;"></div>
+        <div onclick="hide18()" id="circle18" style="cursor: pointer;"></div>
+        <div onclick="hide19()" id="circle19" style="cursor: pointer;"></div>
+        <div onclick="hide20()" id="circle20" style="cursor: pointer;"></div>
+        <div onclick="hide21()" id="circle21" style="cursor: pointer;"></div>
+        <div onclick="hide22()" id="circle22" style="cursor: pointer;"></div>
+        <div onclick="hide23()" id="circle23" style="cursor: pointer;"></div>
+        <div onclick="hide24()" id="circle24" style="cursor: pointer;"></div>
+        <div onclick="hide25()" id="circle25" style="cursor: pointer;"></div>
+        <div onclick="hide26()" id="circle26" style="cursor: pointer;"></div>
+        <div onclick="hide27()" id="circle27" style="cursor: pointer;"></div>
+        <div onclick="hide28()" id="circle28" style="cursor: pointer;"></div>
+        <div onclick="hide29()" id="circle29" style="cursor: pointer;"></div>
+        <div onclick="hide30()" id="circle30" style="cursor: pointer;"></div>
+        <div onclick="hide31()" id="circle31" style="cursor: pointer;"></div>
+        <div onclick="hide32()" id="circle32" style="cursor: pointer;"></div>
+        <div onclick="hide33()" id="circle33" style="cursor: pointer;"></div>
+        <div onclick="hide34()" id="circle34" style="cursor: pointer;"></div>
+        <div onclick="hide35()" id="circle35" style="cursor: pointer;"></div>
+        <div onclick="hide36()" id="circle36" style="cursor: pointer;"></div>
+    </div>
+    <br>
+    <p>PONTOK: <span id="ide">...</span></p>
+    <br>
+    <button id="new" onclick="window.location = location" type="button" class="bg-success text-white">ÚJ JÁTÉK</button>
+</body>
+<script src="aha.js"></script>
+</html>

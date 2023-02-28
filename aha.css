@@ -1,0 +1,49 @@
+body{
+    background-image: url(desktop-pc-1920x1080-thumbnail_00217.jpg);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    color: black;
+}
+#board{
+    width: 720px;
+    height: 720px;
+    border: 3px solid #30A762;
+    background-color: lightgray;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url(arnold-schwarzenegger_1577693400.jpg);
+}
+#board div{
+    width: 119px;
+    height: 119px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(savingPNG\ \(57\)\ \(1\).png);
+    border: 1px #30A762 solid;
+}
+#new, #tippgomb{
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bolder;
+    border: none;
+    background-color: whitesmoke;
+    border-radius: 5px;
+}
+#buttonbox{
+    margin-top: 30px;
+    font-size: 28px
+}
+#cim{
+    font-size: 30px;
+}
+#new{
+    margin-bottom: 30px;
+}
+p{
+    font-size: 30px;
+}
